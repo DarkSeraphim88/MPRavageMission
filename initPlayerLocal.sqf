@@ -23,9 +23,7 @@ if((getNumber(missionConfigFile >> "CfgClient" >> "enableSave")) isEqualTo 1) th
 */
 //_player addAction["<img image='HG_SWSS\UI\gun.paa' size='1.5'/><t color='#FF0000'>Open Weapons Shop</t>",{_this call HG_fnc_dialogOnLoadItems},"HG_DefaultShop",0,false,false,"",'(alive player) && !dialog'];
 _player addAction["<img image='HG_SWSS\UI\money.paa' size='1.5'/><t color='#FF0000'>Give Money</t>",{HG_CURSOR_OBJECT = cursorObject; createDialog "HG_GiveMoney"},"",0,false,false,"",'(alive player) AND (cursorObject isKindOf "Man") AND (alive cursorObject) AND (player distance cursorObject < 2) AND !dialog'];
-_player addAction["<t color='#FFFFFF'>Search for keys</t>",{_this call HG_fnc_searchForKeys},"",0,false,false,"",'(alive player) AND (vehicle player != player) AND (player == driver vehicle player)'];
-_player addAction["<t color='#FFFFFF'>Hide keys in vehicle</t>",{[cursorObject, _this] call HG_fnc_hideKeysInVehicle},"",0,false,false,"",'[cursorObject,_this] call HG_fnc_canPutKeys'];
-_player addAction["<t color='#FFFFFF'>Take keys from vehicle</t>",{[cursorObject, _this] call HG_fnc_takeKeysFromVehicle},"",0,false,false,"",'(alive player) AND (cursorObject isKindOf "Car") AND (cursorObject getVariable ["DS_Owner_GUID",""] isEqualTo getPlayerUID player)'];
+_player addAction["<t color='#FFFFFF'>Get keys</t>",{_this call HG_fnc_searchForKeys},"",0,false,false,"",'(alive player) AND (vehicle player != player) AND (player == driver vehicle player)'];
 
 /*
     Init HUD if applicable
