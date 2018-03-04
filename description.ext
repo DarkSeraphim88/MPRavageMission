@@ -1,0 +1,31 @@
+/*
+    Header
+*/
+author = "Seraphim";
+OnLoadName = "Ravage";
+overviewPicture = "rvg_apex\images\tanoa.jpg";
+overviewText = "Escape the Syndikat and live through the end of the world.";
+loadScreen = "rvg_apex\images\tanoa.jpg";
+onLoadMission = "v 0.4b";
+
+/*
+    Classes
+*/
+#include "HG_SWSS\UI\HG_ControlTypes.h"
+#include "HG_SWSS\UI\HG_GiveMoney.h"
+#include "HG_SWSS\UI\HG_ShopDialog.h"
+
+class RscTitles
+{
+    #include "HG_SWSS\UI\HG_HUD.h"
+};
+
+class CfgClient
+{
+    #include "HG_SWSS\Config\HG_Config.h"
+};
+
+class CfgFunctions 
+{
+	#include "HG_SWSS\Functions\HG_Functions.h"
+};
