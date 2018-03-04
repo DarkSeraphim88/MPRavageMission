@@ -2,7 +2,7 @@
     Header
 */
 author = "Seraphim";
-OnLoadName = "Ravage";
+OnLoadName = "Multiplayer Ravage";
 overviewPicture = "rvg_apex\images\tanoa.jpg";
 overviewText = "Escape the Syndikat and live through the end of the world.";
 loadScreen = "rvg_apex\images\tanoa.jpg";
