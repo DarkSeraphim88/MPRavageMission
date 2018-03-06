@@ -42,9 +42,9 @@
 
 currencyType = "$";
 enableSave = true;
-resetSavedMoney = false;
+resetSavedMoney = true;
 enableHUD = true;
-enablePaycheck = true;
+enablePaycheck = false;
 
 class HG_MoneyCfg
 {
@@ -105,7 +105,7 @@ class HG_WeaponsShopCfg // Has to be left untouched
 			type = "List";
 			items[] =
 			{
-				{"rvg_beans", 30},//[classname, price, cfg type, max number per object]
+				{"rvg_beans", 30},
 				{"rvg_bacon", 30},
 				{"rvg_milk", 25},
 				{"rvg_rice", 25},

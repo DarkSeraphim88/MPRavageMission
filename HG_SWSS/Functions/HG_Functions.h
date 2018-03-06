@@ -27,5 +27,8 @@ class HG_SWSS
 		class itemSelectionChanged {};
 		class paycheck {};
 		class xItemSelectionChanged {};
+		class interactionUpdate {};
+		class interactionMenu_hook {};
+		class interactionMenu_unhook {};
 	};
 };
