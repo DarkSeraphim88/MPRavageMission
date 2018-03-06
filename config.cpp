@@ -20,15 +20,15 @@ class CfgInteractionMenus
             class Lock : MPRavageCusomAction
             {
                 title = "Lock";
-                condition = "(locked cursorObject == 1)";
-                action = "cursorObject lock true";
+                condition = "(locked DSInteractionObject) isEqualTo 1";
+                action = "DSInteractionObject lock true";
             };
 
             class Unlock : MPRavageCusomAction
             {
                 title = "Unlock";
-                condition = "(locked cursorObject == 2)";
-                action = "cursorObject lock false";
+                condition = "(locked DSInteractionObject) isEqualTo 2";
+                action = "DSInteractionObject lock false";
             }
         };
     };
