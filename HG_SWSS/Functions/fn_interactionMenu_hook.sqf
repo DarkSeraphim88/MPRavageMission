@@ -43,7 +43,11 @@ for "_i" from 0 to count(_menus) - 1 do
 					getText(_menuItem >> "action"), 
 					nil, 
 					getNumber(_menuItem >> "priority"), 
-					getNumber(_menuItem >> "showWindow") isEqualTo 1 
+					getNumber(_menuItem >> "showWindow") isEqualTo 1,
+					true,
+					"",
+					"true",
+					10
 				]);
 			};
 		};
