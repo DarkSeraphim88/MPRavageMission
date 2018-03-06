@@ -30,5 +30,6 @@ class HG_SWSS
 		class interactionUpdate {};
 		class interactionMenu_hook {};
 		class interactionMenu_unhook {};
+		class canUnLock {};
 	};
 };
