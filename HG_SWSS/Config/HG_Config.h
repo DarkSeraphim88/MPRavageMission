@@ -42,7 +42,7 @@
 
 currencyType = "$";
 enableSave = true;
-resetSavedMoney = true;
+resetSavedMoney = false;
 enableHUD = true;
 enablePaycheck = false;
 
@@ -52,43 +52,43 @@ class HG_MoneyCfg
 	{
 		paycheck = 2000;
 		paycheckPeriod = 30;
-		startCash = 3000;
+		startCash = 10000;
 	};
 	class CORPORAL
 	{
 		paycheck = 4000;
 		paycheckPeriod = 30;
-		startCash = 5000;
+		startCash = 11000;
 	};
 	class SERGEANT
 	{
 		paycheck = 6000;
 		paycheckPeriod = 30;
-		startCash = 7000;
+		startCash = 12000;
 	};
 	class LIEUTENANT
 	{
 		paycheck = 8000;
 		paycheckPeriod = 30;
-		startCash = 8000;
+		startCash = 13000;
 	};
 	class CAPTAIN
 	{
 		paycheck = 10000;
 		paycheckPeriod = 30;
-		startCash = 9000;
+		startCash = 14000;
 	};
 	class MAJOR
 	{
 		paycheck = 12000;
 		paycheckPeriod = 30;
-		startCash = 10000;
+		startCash = 15000;
 	};
 	class COLONEL
 	{
 		paycheck = 14000;
 		paycheckPeriod = 30;
-		startCash = 12000;
+		startCash = 16000;
 	};
 };
 

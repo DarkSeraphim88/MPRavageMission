@@ -2,12 +2,22 @@ DSInteractionObject = objNull;
 DSInteractionHandles = [];
 DSInteractionLastHookTime = 0;
 
+private ["_month", "_day", "_hour", "_minute" ];
+_month = (floor random 11) + 1;
+_day = (floor random 27) + 1;
+_hour = floor random 23;
+_minute = floor random 59;
+
+setDate [2018, _month, _day, _hour, _minute];
+
 [] spawn {
 	while {true} do {
 		[] call HG_fnc_interactionUpdate;
 		sleep 0.01;
 	};
 };
+
+"MPRavage" execVM "vehicleSpawnerAndSaver.sqf";
 
 private ["_lockAction", "_unlockAction"];
 

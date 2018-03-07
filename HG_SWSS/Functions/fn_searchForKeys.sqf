@@ -9,6 +9,7 @@ _GUID = getPlayerUID _player;
 if (!(_GUID in _GUIDS)) then {
 	_GUIDS = _GUIDS + [_GUID];
 	_vehicle setVariable ["DS_GUIDS", _GUIDS];
+	_vehicle setVariable ["DS_ShouldSave", true];
 };
 
 if (!( "ACE_key_customKeyMagazine" in magazines _player)) then {
