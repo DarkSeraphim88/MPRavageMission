@@ -8,20 +8,39 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=76;
+		nextID=82;
 	};
 	class Camera
 	{
-		pos[]={10324.755,5.5325804,2653.3547};
-		dir[]={0.2129118,-0.46150258,-0.86135018};
-		up[]={0.11078034,0.88698721,-0.44817397};
-		aside[]={-0.97087896,-3.0320662e-006,-0.23996848};
+		pos[]={10350.544,15.747628,2675.8389};
+		dir[]={-0.72156036,-0.39280802,-0.570337};
+		up[]={-0.30831119,0.9194755,-0.24369395};
+		aside[]={-0.62014425,-4.6035275e-006,0.78460234};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"A3_Characters_F",
+	"A3_Weapons_F_Rifles_MX",
+	"A3_Weapons_F_Mark_Rifles_MX",
+	"A3_Weapons_F_Acc",
+	"ace_scopes",
+	"ace_laserpointer",
+	"A3_Weapons_F_Mark_Acc",
+	"A3_Weapons_F",
+	"ace_smallarms",
+	"ace_ballistics",
+	"A3_Weapons_F_Pistols_P07",
+	"ace_realisticnames",
+	"A3_Drones_F_Weapons_F_Gamma_Items",
+	"A3_Characters_F_Heads",
+	"ace_goggles",
+	"A3_Weapons_F_Exp",
+	"ace_attach",
+	"ace_chemlights",
+	"A3_Weapons_F_Items",
+	"ace_medical",
 	"ace_map_gestures",
 	"ace_respawn",
 	"acex_sitting",
@@ -30,14 +49,13 @@ addons[]=
 	"A3_Props_F_Exp_Commercial_Market",
 	"ace_gforces",
 	"ace_parachute",
-	"A3_Soft_F_Exp_Offroad_02",
-	"ace_realisticnames"
+	"A3_Soft_F_Exp_Offroad_02"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=21;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -47,53 +65,137 @@ class AddonsMetaData
 		};
 		class Item1
 		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Weapons_F_Mark";
+			name="Arma 3 Marksmen - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item3
+		{
+			className="ace_scopes";
+			name="ACE3 - Scopes";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item4
+		{
+			className="ace_laserpointer";
+			name="ACE3 - Laser Pointer";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item5
+		{
+			className="ace_smallarms";
+			name="ACE3 - Small Arms";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item6
+		{
+			className="ace_ballistics";
+			name="ACE3 - Ballistics";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item7
+		{
+			className="A3_Drones_F";
+			name="Arma 3 Beta - Drones";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="ace_goggles";
+			name="ACE3 - Goggles";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item9
+		{
+			className="A3_Weapons_F_Exp";
+			name="Arma 3 Apex - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item10
+		{
+			className="ace_attach";
+			name="ACE3 - Attach";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item11
+		{
+			className="ace_chemlights";
+			name="ace_chemlights";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item12
+		{
+			className="ace_medical";
+			name="ACE3 - Medical";
+			author="Команда ACE";
+			url="http://ace3mod.com/";
+		};
+		class Item13
+		{
 			className="ace_map_gestures";
 			name="ACE3 - Map Gestures";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item2
+		class Item14
 		{
 			className="ace_respawn";
 			name="ACE3 - Respawn";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item3
+		class Item15
 		{
 			className="acex_sitting";
 			name="ACEX - Sitting";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item4
+		class Item16
 		{
 			className="ravage";
 			name="ravage";
 			author="Haleks";
 		};
-		class Item5
+		class Item17
 		{
 			className="A3_Characters_F_Orange";
 			name="Arma 3 Orange - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item18
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item19
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="Команда ACE";
 			url="http://ace3mod.com/";
 		};
-		class Item8
+		class Item20
 		{
 			className="A3_Soft_F_Exp";
 			name="Arma 3 Apex - Unarmored Land Vehicles";
@@ -152,6 +254,112 @@ class Mission
 					class Attributes
 					{
 						isPlayer=1;
+						class Inventory
+						{
+							class primaryWeapon
+							{
+								name="arifle_MX_SW_pointer_F";
+								optics="optic_Nightstalker";
+								flashlight="acc_pointer_IR";
+								underBarrel="bipod_01_F_snd";
+								class primaryMuzzleMag
+								{
+									name="100Rnd_65x39_caseless_mag";
+									ammoLeft=100;
+								};
+							};
+							class handgun
+							{
+								name="hgun_P07_F";
+								class primaryMuzzleMag
+								{
+									name="16Rnd_9x21_Mag";
+									ammoLeft=17;
+								};
+							};
+							class uniform
+							{
+								typeName="U_B_CombatUniform_mcam_tshirt";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=4;
+									class Item0
+									{
+										name="SmokeShell";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item1
+									{
+										name="HandGrenade";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item2
+									{
+										name="SmokeShellGreen";
+										count=1;
+										ammoLeft=1;
+									};
+									class Item3
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+								class ItemCargo
+								{
+									items=1;
+									class Item0
+									{
+										name="FirstAidKit";
+										count=1;
+									};
+								};
+							};
+							class vest
+							{
+								typeName="V_PlateCarrier2_rgr";
+								isBackpack=0;
+								class MagazineCargo
+								{
+									items=3;
+									class Item0
+									{
+										name="100Rnd_65x39_caseless_mag";
+										count=5;
+										ammoLeft=100;
+									};
+									class Item1
+									{
+										name="16Rnd_9x21_Mag";
+										count=2;
+										ammoLeft=17;
+									};
+									class Item2
+									{
+										name="Chemlight_green";
+										count=1;
+										ammoLeft=1;
+									};
+								};
+							};
+							class backpack
+							{
+								typeName="B_ViperHarness_hex_F";
+								isBackpack=1;
+							};
+							map="ItemMap";
+							compass="ItemCompass";
+							watch="ItemWatch";
+							radio="ItemRadio";
+							gps="B_UavTerminal";
+							goggles="G_Tactical_Clear";
+							hmd="NVGogglesB_gry_F";
+							headgear="H_HelmetB_grass";
+						};
 					};
 					id=1;
 					type="B_soldier_AR_F";
@@ -2421,7 +2629,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=50;
+							value=20;
 						};
 					};
 				};
@@ -2606,7 +2814,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=25;
+							value=0;
 						};
 					};
 				};
@@ -2663,7 +2871,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=1;
+							value=2;
 						};
 					};
 				};
@@ -2682,7 +2890,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="EAST";
+							value="WEST_drones";
 						};
 					};
 				};
@@ -2701,7 +2909,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="WEST";
+							value="none";
 						};
 					};
 				};
@@ -2796,7 +3004,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=15;
+							value=5;
 						};
 					};
 				};

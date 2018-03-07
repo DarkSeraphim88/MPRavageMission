@@ -52,43 +52,43 @@ class HG_MoneyCfg
 	{
 		paycheck = 2000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 3000;
 	};
 	class CORPORAL
 	{
 		paycheck = 4000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 5000;
 	};
 	class SERGEANT
 	{
 		paycheck = 6000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 7000;
 	};
 	class LIEUTENANT
 	{
 		paycheck = 8000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 8000;
 	};
 	class CAPTAIN
 	{
 		paycheck = 10000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 9000;
 	};
 	class MAJOR
 	{
 		paycheck = 12000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 10000;
 	};
 	class COLONEL
 	{
 		paycheck = 14000;
 		paycheckPeriod = 30;
-		startCash = 50000;
+		startCash = 12000;
 	};
 };
 

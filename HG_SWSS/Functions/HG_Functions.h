@@ -31,5 +31,6 @@ class HG_SWSS
 		class interactionMenu_hook {};
 		class interactionMenu_unhook {};
 		class canUnLock {};
+		class LockVehicle {};
 	};
 };

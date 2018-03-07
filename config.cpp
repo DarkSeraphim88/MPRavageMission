@@ -21,14 +21,14 @@ class CfgInteractionMenus
             {
                 title = "Lock";
                 condition = "((locked DSInteractionObject) isEqualTo 1) and (DSInteractionObject call HG_fnc_canUnLock)";
-                action = "DSInteractionObject lock true";
+                action = "true spawn HG_fnc_LockVehicle;"; //DSInteractionObject lock true; call HG_fnc_interactionMenu_unhook;";
             };
 
             class Unlock : MPRavageCusomAction
             {
                 title = "Unlock";
                 condition = "((locked DSInteractionObject) isEqualTo 2) and (DSInteractionObject call HG_fnc_canUnLock)";
-                action = "DSInteractionObject lock false";
+                action = "false spawn HG_fnc_LockVehicle;"; //DSInteractionObject lock false; call HG_fnc_interactionMenu_unhook;";
             }
         };
     };
