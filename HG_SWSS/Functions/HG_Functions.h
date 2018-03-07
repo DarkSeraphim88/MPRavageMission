@@ -21,7 +21,8 @@ class HG_SWSS
 		class searchForKeys {};
 		class hideKeysInVehicle {};
 		class takeKeysFromVehicle {};
-		class canPutKeys {};
+		class canGetKeys {};
+		class canLinkKeys {};
 		class HUD {};
 		class isNumeric {};
 		class itemSelectionChanged {};

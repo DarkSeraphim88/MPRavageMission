@@ -2,14 +2,12 @@ DSInteractionObject = objNull;
 DSInteractionHandles = [];
 DSInteractionLastHookTime = 0;
 
-test = {
+[] spawn {
 	while {true} do {
 		[] call HG_fnc_interactionUpdate;
 		sleep 0.01;
 	};
 };
-
-[] spawn test;
 
 private ["_lockAction", "_unlockAction"];
 
